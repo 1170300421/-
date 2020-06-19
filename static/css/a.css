@@ -1,0 +1,89 @@
+.topDiv {
+            height: 80px; width: 100%;
+            border-bottom: 2px solid #ebebeb;
+            box-shadow:0px 5px 0px 0px rgba(245, 245, 245, 0.45);
+        }
+        .topDiv p {
+            font-family:"Microsoft YaHei",Tahoma,Verdana,SimSun;
+            font-size: 25px;
+            text-align: center;
+            color: #bdae9c;
+            position: relative;
+            left: 400px; top: 0px;
+            display: inline-block;
+        }
+        .oneSpan {
+            color: red;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .topDiv div {
+            position: relative;
+            left: 650px; top: 0px;
+            display: inline-block;
+        }
+        .twoSpan {
+            font-size: 23px;
+            color: burlywood;
+        }
+        .oneSpan, .twoSpan {
+            position: relative;
+            left: 8px; top: -15px;
+        }
+        .leftDiv {
+            width: 13%;
+        }
+        ul li {
+            list-style: none;
+        }
+        .leftDiv ul li a {
+            display: block;
+            font-size: 18px;
+            color: #000;
+            height: 60px;
+            line-height: 50px;
+            border-radius: 3px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            padding: 0 8px;
+            text-align: center;
+            text-decoration: none;
+        }
+        .leftDiv ul li a:hover{
+            background-color: #ff4418;
+            color: white;
+        }
+        .spotDiv {
+            position: absolute;
+            top: 16%; left: 19%;
+            width: 1000px;
+            border-left-color: #ff122d;
+        }
+        .spotDiv ul li {
+            display: inline-block;
+        }
+        .spotDiv ul div {
+            height: 80px;
+            border-bottom: 1px solid #ebebeb;
+            box-shadow:0px 1px 0px 0px rgba(245, 245, 245, 0.45);
+            background-color: #fbfff6;
+        }
+        .oneLi a{
+            font-size: 20px;
+            text-decoration: none;
+            color: #ff6466;
+            font-weight: bold;
+        }
+        .twoLi {
+            position: absolute;
+            left: 70%;
+        }
+        .twoLi input {
+            width: 16px; height: 16px;
+        }
+        .oneUl li a{
+            text-decoration: none;
+            color: black;
+            background-color: #00c1c1;
+        }
